@@ -1,0 +1,8 @@
+.about-container {
+    background: rgba(215, 164, 91, 0.6);
+    color: #524A42;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 85%;
+    width: 85%;
+}

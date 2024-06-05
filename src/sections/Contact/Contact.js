@@ -1,12 +1,15 @@
-import React from 'react';
-import './Contact.css';
+import React from "react";
+import TranslucentContainer from "../../components/TranslucentContainer/TransluscentContainer";
 
 const Contact = () => {
-    return (
-        <div className="contact-container">
-            <h1>Contact!</h1>
-        </div>
-    );
-}
+  return (
+    <TranslucentContainer
+      backgroundcolor="rgba(187, 191, 194, 0.6)"
+      fontcolor="#38393B"
+    >
+      <h1>Contact!</h1>
+    </TranslucentContainer>
+  );
+};
 
 export default Contact;

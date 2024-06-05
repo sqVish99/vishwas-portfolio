@@ -1,8 +1,37 @@
-.home-container {
-    background: rgba(58, 64, 52, 0.6);
-    color: #81ACDC;
-    padding: 2rem;
-    border-radius: 1rem;
-    height: 85%;
-    width: 85%;
-}
+@keyframes flip {
+    0% {
+      transform: rotateX(0);
+    }
+    50% {
+      transform: rotateX(90deg);
+    }
+    100% {
+      transform: rotateX(0);
+    }
+  }
+  
+  .flip-card {
+    display: inline-block;
+    perspective: 100rem;
+  }
+  
+  .flip-card-inner {
+    display: inline-block;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .flip-card.flipping .flip-card-inner {
+    animation: flip 1s;
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    backface-visibility: hidden;
+    display: inline-block;
+  }
+  
+  .flip-card-back {
+    transform: rotateX(180deg);
+  }
+  

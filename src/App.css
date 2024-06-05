@@ -18,17 +18,22 @@ section {
 }
 
 .home-section {
-  background-image: url('./assets/backgrounds/home.webp');
+  background-image: url("./assets/backgrounds/home.webp");
 }
 
 .about-section {
-  background-image: url('./assets/backgrounds/about.webp');
+  background-image: url("./assets/backgrounds/about.webp");
 }
 
 .projects-section {
-  background-image: url('./assets/backgrounds/projects.webp');
+  background-image: url("./assets/backgrounds/projects.webp");
 }
 
 .contact-section {
-  background-image: url('./assets/backgrounds/contact.webp');
+  background-image: url("./assets/backgrounds/contact.webp");
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
 }

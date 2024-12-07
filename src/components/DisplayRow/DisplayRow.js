@@ -9,6 +9,11 @@ const DisplayRow = styled.div`
   padding: ${(props) => props.padding || "0.5rem"};
   color: ${(props) => props.fontcolor || "inherit"};
   display: ${(props) => props.display || "flex"};
+  flex-wrap: ${(props) => props.flexwrap || "wrap"};
+  justify-content: ${(props) => props.justifycontent || "center"};
+  @media (max-width: 375px) {
+    height: ${(props) => props.smallheight || "auto"};
+  }
 `;
 
 export default DisplayRow;

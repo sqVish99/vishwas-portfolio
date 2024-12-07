@@ -5,6 +5,8 @@ import About from "./sections/About/About";
 import Projects from "./sections/Projects/Projects";
 import Contact from "./sections/Contact/Contact";
 import { HashRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+// import ChatbotButton from "./components/ChatbotButton/ChatbotButton";
 
 const App = () => {
   const homeRef = useRef(null);
@@ -36,6 +38,7 @@ const App = () => {
 
   return (
     <Router>
+      <Navbar />
       <div className="App">
         <section id="home" ref={homeRef} className="home-section">
           <Home />
@@ -50,6 +53,7 @@ const App = () => {
           <Contact />
         </section>
       </div>
+      {/* <ChatbotButton /> */}
     </Router>
   );
 };

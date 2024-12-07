@@ -15,10 +15,11 @@ section {
   scroll-snap-align: start;
   background-size: cover;
   background-position: center;
+  padding-top: 4rem;
 }
 
 .home-section {
-  background-image: url("./assets/backgrounds/home.webp");
+  background-image: url("./assets/backgrounds/home2.webp");
 }
 
 .about-section {

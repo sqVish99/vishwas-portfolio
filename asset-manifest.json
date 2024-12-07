@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vishwas-portfolio/static/css/main.623221ba.css",
+    "main.js": "/vishwas-portfolio/static/js/main.f48faa35.js",
+    "static/js/453.afd0d4f0.chunk.js": "/vishwas-portfolio/static/js/453.afd0d4f0.chunk.js",
+    "static/media/home2.webp": "/vishwas-portfolio/static/media/home2.5a3be1e245c70789c5b5.webp",
+    "static/media/projects.webp": "/vishwas-portfolio/static/media/projects.876653182e358808f768.webp",
+    "static/media/contact.webp": "/vishwas-portfolio/static/media/contact.8b96d236d13be6b7dd2e.webp",
+    "static/media/about.webp": "/vishwas-portfolio/static/media/about.7b1318a1692294947d86.webp",
+    "static/media/Vishwas-Resume.pdf": "/vishwas-portfolio/static/media/Vishwas-Resume.a44e1b57899f5e108eb7.pdf",
+    "index.html": "/vishwas-portfolio/index.html",
+    "main.623221ba.css.map": "/vishwas-portfolio/static/css/main.623221ba.css.map",
+    "main.f48faa35.js.map": "/vishwas-portfolio/static/js/main.f48faa35.js.map",
+    "453.afd0d4f0.chunk.js.map": "/vishwas-portfolio/static/js/453.afd0d4f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.623221ba.css",
+    "static/js/main.f48faa35.js"
+  ]
+}

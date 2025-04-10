@@ -14,6 +14,7 @@ import LinkIcon from "@mui/icons-material/Link";
 import DescriptionIcon from "@mui/icons-material/Description";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import resume from "../../assets/files/Vishwas-Resume.pdf";
+import SchoolIcon from '@mui/icons-material/School';
 
 const Home = () => {
   const theme = useTheme();
@@ -136,6 +137,13 @@ const Home = () => {
                     icon: <LinkedInIcon />,
                     label: "LinkedIn",
                     href: "https://www.linkedin.com/in/vishwas-m-h/",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                  },
+                  {
+                    icon: <SchoolIcon />,
+                    label: "Learn Kana",
+                    href: "https://sqvish99.github.io/learn-kana/",
                     target: "_blank",
                     rel: "noopener noreferrer",
                   },
